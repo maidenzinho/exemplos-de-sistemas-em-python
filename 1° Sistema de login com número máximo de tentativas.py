@@ -11,4 +11,7 @@ while (tentativas < 3):
     print("Senha incorreta!")
 
     tentativas += 1
-    print(f"Tentativas restantes: {tentativas}")
+    print(f"Tentativas: {tentativas}")
+
+if (tentativas == 3):
+  print("Acesso bloqueado!")
